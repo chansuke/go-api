@@ -1,6 +1,5 @@
 FROM golang:latest
 
-# Copy the local package files to the container’s workspace.
 ADD . /go/src/github.com/EwanValentine/project/api
 
 # Install our dependencies
